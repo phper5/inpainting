@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* 定义变量与值 */
+.nav
+{
+  border-bottom: 1px solid #e0e0e0;
+}
+.top {
+  margin: 0 auto;
+  max-width:1440px;
+  height: 66px;
+  display: flex;
+    align-items: center;
+}
+.top .topbar img{
+    height: 40px;
+}
+.nav .topbar {
+  display: flex;
+  width: 100%;
+}
+
+.nav .menu{
+  display: flex;
+    margin-left: 12px;
+}
+.nav .menu .item {
+  display: flex;
+  color: rgb(33, 33, 33);
+  padding: 0px 12px;
+  line-height: 18px;
+  font-size: 15px;
+  align-items: center;
+  white-space:nowrap;
+}
+.nav .menu .item .txt{
+  display: flex;
+  margin: 0 15px;
+}
+.nav .menu .item.register {
+  background: rgb(0, 85, 255) none repeat scroll 0% 0%;
+  color: #ffffff;
+  border-radius:4px;
+  font-weight:700;
+  margin: 10px auto;
+}
+.clean{
+  float: none;
+  clear: both;
+  display: none;
+  height: 0px;
+}
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  color: rgb(33, 33, 33);
+}
+.content .info {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 10px auto;
+}
+.bar {
+  border-top:1px solid rgb(224, 224, 224);
+    margin-top: 30px;
+}
+#demo{
+    display: flex;
+    flex-wrap: wrap;
+}
+#demo img {
+  /**  width:100%;**/
+    max-width: 900px;
+    min-width:700px;
+}
+#btn_upload {
+    font-size: 14px;
+    border-radius: 2px;
+    padding: 0.8em 3em;
+    border: 1px solid;
+    text-decoration: none;
+    display: none;
+    border-color: #000;
+    color: #000;
+    float: right;
+     margin: 0 auto;
+ }
+.blue_btn {
+    width: 160px;
+    border-radius: 25px;
+    padding: 12px 23px;
+    color: #fff;
+    background-color: #409eff;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid #409eff;
+    text-align: center;
+}
+#btn_upload:hover{
+    border-color: #ccc;
+    color: #ccc;
+}
+#upload_btn {
+    display: none;
+}
+#demoInfo{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#demoInfo .title{
+    padding-left: 40px;
+}
+#demoInfo ul{
+    list-style-type:none;
+    padding-left: 40px;
+    margin: 20px;
+}
+#demoInfo ul li{
+    text-align: left;
+}
+header {
+    margin: 0 auto 30px;
+    max-width: 1440px;
+    background-image: url("../images/top-bg.webp");
+    background-position: center;
+    color:#fff;
+    text-align: center;
+    padding: 30px;
+    /**display: flex;**/
+}
+header h1{
+    margin: 0;
+}
+#previewbox{
+margin-left: 10px;
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Host: http://recovery.diandi.org
+Sitemap: http://recovery.diandi.org/sitemap.xml
